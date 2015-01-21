@@ -1,0 +1,2 @@
+mailto=steedan@webhivehq.com
+0 */1 * * * /usr/bin/wget -O - -q "http://www.consciouswater.ca/wp-content/plugins/woocommerce-fulfillment-integration-master/ExportOrders-soap.php?efs_merchant_id=F0516430-A284-4595-A3AD-235D2C211F3F&efs_merchant_token=CWP01" >/dev/null
